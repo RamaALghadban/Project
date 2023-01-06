@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>s
+    <link rel="stylesheet" href="assets/css/style4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-------------------------- header section start-------------------------->
+<header class="header">
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+
+    </div>
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times" class=""></span>
+            <img src="./assets/img/ديكور قلام ماركر.png" alt="" >
+            <div class="content">
+                <h3>ماركر أقلام</h3>
+                <div class="price">20000l.s</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="./assets/img/حبر خط ز زخرفه 3.png" alt="" >
+            <div class="content">
+                <h3>محبره</h3>
+                <div class="price">10000l.s</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="./assets/img/4.jpg" alt="" >
+            <div class="content">
+                <h3>صورة</h3>
+                <div class="price">50000l.s</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="./assets/img/ت.png" alt="" >
+            <div class="content">
+                <h3>ريشة كتابة</h3>
+                <div class="price">8000l.s</div>
+            </div>
+        </div>
+        <a href="#" class="btn">السلة </a>
+    </div>
+    <nav class="navbar">
+        <a href="#home">الرئيسية</a>
+        <a href="#about">نحن</a>
+        <a href="#products">مختارات</a>
+        <a href="#menu">منتجاتنا</a>
+        <a href="#review">أراء</a>
+        <a href="#contact">اتصل بنا</a>
+        <a href="#group ">غروب  </a>
+    </nav>
+    <!-- <a href="#" class="logo">
+        <img  class="photo" src="./assets/img/logo تحريك.png" alt="">
+    </a> -->
+    
+
+</header>
+<!-------------------------- header seaction end -------------------------->
+<!-------------------------- home section start -------------------------->
+<section class="home" id="home">
+    <div class="content">
+        <img src="./assets/img/لوقو شكل.png" alt="" class="home-img">
+        
+    </div>
+</section>
+<!-------------------------- home section end -------------------------->
+<!-------------------------- about section starts -------------------------->
+<section class="about" id="about">
+    <h1 class="heading"><span></span></h1>
+    <div class="row">
+        <div class="image">
+  <img class="mySlidess" src="./assets/img/نحن.jpg"  >
+  <img class="mySlidess" src="./assets/img/نحن1.jpeg" >
+  <img class="mySlidess" src="./assets/img/نحن3.jpeg" >
+  <button class="w3-button w3-black w3-display-left" id="click" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" id="click" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+        <div class="content">
+            <h3>نحن</h3>
+            <p>شركة دمشق لبيع لاستراد و انتاج ادوات الفنانين مقرنا  الاساسي في دمشق و يوجد لدينا افرع في جميع المحافظات السورية,ستورد اجود المنتجات من جميع انحاء العالم و نصنع العديد من المنتجات بمواد خام من ارض  الوطن و لجميع الفنانين.........<div class=" "></div></p>
+            <p></p>
+            <a href="#" class="btn" style="font-size:1.5rem;padding:16px 25px;" >المزيد</a>
+        </div>
+    </div>
+</section>
+<!-------------------------- about section end -------------------------->
+<!-------------------------- slider section start  -------------------------->
+<section class="sliders" id="sliders">
+    <div class="box-container">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                <input type="radio" name="radio-btn" id="radio6">
+            
+                <div class="slide first">
+                    <img src="./assets/img/Untitled6.png" alt="">
+                </div>
+                    <div class="slide ">
+                        <img src="./assets/img/Untitled1.png" alt="" srcset="">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/img/Untitled5.png" alt="" srcset="">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/img/Untitled2.png" alt="" srcset="">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/img/Untitled3.png" alt="" srcset="">
+                    </div>
+                    <div class="slide">
+                      <img src="./assets/img/Untitled4.png" alt="" srcset="">
+                  </div>
+                </div>
+                <div class="navigation-manual" style="margin-top: 170px;margin-right: -180px;">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                    <label for="radio5" class="manual-btn"></label>
+                    <label for="radio6" class="manual-btn" style="margin-right: 25px;"></label>
+                </div>
+            </div>
+    <!-- </div> -->
+
+</section>
+<!-------------------------- slides section end -------------------------->
+
+<!-------------------------- proudact seaction start  -------------------------->
+<section class="products" id="products">
+    <h1 class="heading" style="    margin-top: 24px; padding-top: 20px; margin-bottom: -40px;"> <span>مختارات</span></h1>
+    <i style='font-size:24px' class='fas'></i>
+    <div class="box-container">
+   
+      <ul>
+        <li class="left" style="display: flex; position: absolute; right: -50px; "><span style="display: flex;position: absolute;top: 20px;right: 15px;"></span></li>
+        <li class="right" style="display: flex;position: absolute;  right: 1300px;"><span style="display: flex;position: absolute;top: 20px;left: 15px;"></span></li>
+      </ul>
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye" ></a>
+            </div>
+            <div class="image">
+                <img src="./assets/img/يم.png" class="product" >
+            </div>
+            <div class="content">
+                <h3>لابتوب</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">20000000l.s <span>250000000l.s</span></div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="./assets/img/ديكور قلام ماركر.png" class="product" >
+            </div>
+            <div class="content">
+                <h3>أقلام ماركر</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">40000l.s <span>52000l.s</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="./assets/img/تصوير 5.png" class="product" >
+            </div>
+            <div class="content">
+                <h3>طقم فرش زيتي</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">15000l.s <span>21000l.s</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---------------------------- proudact seaction end  ---------------------------->
+<!---------------------------- menu seaction start  ---------------------------->
+<section class="menu" id="menu">
+    <h1 class="heading"> <span>منتجاتنا</span></h1>
+    <div class="menu-div">
+        <br>
+       <div class="num" style="margin-right: 465px;">
+          <a class="list active" data-filter="all">الكل</a>
+          <a class="list" data-filter="art"> تصميم</a>
+          <a class="list" data-filter="eye"> تصميم داخلي</a>
+          <a class="list" data-filter="grafic">تصوير(رسم)</a>
+           <a class="list" data-filter="hafer">حفر ونحت</a>
+      <a class="list" data-filter="arabic">زخرفة وخط</a>
+        </div>
+        
+        <div class="menu-container">
+          <div class="itemBox" data-item="art">
+            <div class="img">
+              <img src="assets/img/تصميم.png" class="img-menu" style="padding-left:25px ; padding-top: 15px;">
+            </div>
+            <div class="menu-food">
+              <div class="title-price">
+              <p style="font-size: 2rem; color: var(--black);">ذاكرة محمولة(فلاشة)</p><br> <span style="font-size: 1.5rem; color: #8fffff;">5000l.s</span>
+              </div>  
+            </div>
+            <button class="btn" style="margin-right: 55px; margin-top: 54px;">أضف إلى السلة</button>
+          </div>
+        
+      
+          <div class="itemBox" data-item="art">
+            <img src="assets/img/تصميم 2.png"class="img-menu">
+            <div class="menu-food">
+              <div class="title-price">
+                <p style="font-size: 2rem; color: var(--black);">تابلت رسم بدون شاشه</p> <span style="font-size: 1.5rem;color: #8fffff;">1000000l.s</span>
+              </div>  
+            </div>
+            <button class="btn" style="margin-right: 55px; margin-top: 65px;">أضف إلى السلة</button>
+          </div>
+          
+          <div class="itemBox" data-item="art"> 
+            <img src="assets/img/تصميم 3.png"class="img-menu">
+            <div class="menu-food">
+              <div class="title-price">
+                <p style="font-size: 2rem;color: var(--black);">فأرة تحكم</p> <span style="font-size: 1.5rem;color: #8fffff;">50000l.s</span>
+              </div>  
+            </div>
+            <button class="btn" style="margin-right: 55px; margin-top: 65px;">أضف إلى السلة</button>
+          </div>
+          <div class="itemBox" data-item="eye">
+             <img src="assets/img/ديكور.png"class="img-menu" >
+             <div class="menu-food">
+              <div class="title-price">
+                <p style="font-size: 2rem;color: var(--black);">أقلام تحبير سوداء</p> <span style="font-size: 1.5rem;color: #8fffff;">20000l.s</span>
+              </div>  
+            </div>
+            <button class="btn" style="margin-right: 55px; margin-top: 65px;">أضف إلى السلة</button>
+          </div>
+          <div class="itemBox" data-item="eye">
+             <img src="assets/img/ديكور 2.png"class="img-menu">
+             <div class="menu-food">
+              <div class="title-price">
+                <p style="font-size: 2rem;color: var(--black);">مسطرة مفروشات</p> <span style="font-size: 1.5rem;color: #8fffff;">1000l.s</span>
+              </div>  
+            </div>
+            <button class="btn" style="margin-right: 55px; margin-top: 65px;">أضف إلى السلة</button>
+          </div>
+    
+          <div class="itemBox" data-item="eye">
+             <img src="assets/img/ديكور 3.png"class="img-menu">
+             <div class="menu-food">
+              <div class="title-price">
+                <p style="font-size: 2rem;color: var(--black);">Tمسطرة </p> <span style="font-size: 1.5rem;color: #8fffff;">10000l.s</span>
+              </div>  
+            </div>
+            <button class="btn" style="margin-right: 55px; margin-top: 65px;">أضف إلى السلة</button>
+          </div>
+    
+          <div class="itemBox" data-item="grafic">
+            <img src="assets/img/تصوير.png"class="img-menu">
+            <div class="menu-food">
+              <div class="title-price">
+                <p style="font-size: 2rem;color: var(--black);">علبة ألوان مائية</p> <span style="font-size: 1.5rem;color: #8fffff;">15000l.s</span>
+              </div>  
+            </div>
+            <button class="btn" style="margin-right: 55px; margin-top: 65px;">أضف إلى السلة</button>
+          </div>
+    
+          <div class="itemBox" data-item="grafic">
+             <img src="assets/img/تصوير 2.png"class="img-menu">
+             <div class="menu-food">
+              <div class="title-price">
+                <p style="font-size: 2rem;color: var(--black);">علبة أقلام رصاص</p> <span style="font-size: 1.5rem;color: #8fffff;">10000l.s</span>
+              </div>  
+            </div>
+            <button class="btn" style="margin-right: 55px; margin-top: 65px;">أضف إلى السلة</button>
+          </div>
+           
+          <div class="itemBox" data-item="grafic" >
+              <img src="assets/img/تصوير 3.png"class="img-menu">
+             <div class="menu-food">
+              <div class="title-price">
+                <p style="font-size: 2rem;color: var(--black);">ممحاة معجون</p> <span style="font-size: 1.5rem;color: #8fffff;">2000l.s</span>
+              </div>  
+            </div>
+            <button class="btn" style="margin-right: 55px; margin-top: 65px;">أضف إلى السلة</button>
+          </div>
+            <div class="itemBox" data-item="hafer">
+              <div class="img">
+                <img src="assets/img/حفر و نحت.png" class="img-menu">
+              </div>
+              <div class="menu-food">
+                <div class="title-price">
+                  <p style="font-size: 2rem;color: var(--black);">أدوات حفر على الخشب</p> <span style="font-size: 1.5rem;color: #8fffff;">25000l.s</span>
+                </div>  
+              </div>
+              <button class="btn" style="margin-right: 55px; margin-top: 65px;">أضف إلى السلة</button>
+            </div>
+          
+        
+            <div class="itemBox" data-item="hafer">
+              <img src="assets/img/حفر و نحت 2.png"class="img-menu">
+              <div class="menu-food">
+                <div class="title-price">
+                  <p style="font-size: 2rem;color: var(--black);">أقلام فحم طبيعي</p> <span style="font-size: 1.5rem;color: #8fffff;">30000l.s</span>
+                </div>  
+              </div>
+              <button class="btn" style="margin-right: 55px; margin-top: 65px;">أضف إلى السلة</button>
+            </div>
+            
+            <div class="itemBox" data-item="hafer"> 
+              <img src="assets/img/حبر خط ز زخرفه 3.png"class="img-menu">
+              <div class="menu-food">
+                <div class="title-price">
+                  <p style="font-size: 2rem;color: var(--black);">حبر سائل أسود</p> <span style="font-size: 1.5rem;color: #8fffff;">30000l.s</span>
+                </div>  
+              </div>
+              <button class="btn" style="margin-right: 55px; margin-top: 65px;">أضف إلى السلة</button>
+            </div>
+            <div class="itemBox" data-item="arabic">
+              <div class="img">
+                <img src="assets/img/خط و زخرفه.png" class="img-menu">
+              </div>
+              <div class="menu-food">
+                <div class="title-price">
+                  <p style="font-size: 2rem;color: var(--black);">ريشة خط عربي معدنية</p> <span style="font-size: 1.5rem;color: #8fffff;">25000l.s</span>
+              </div>  
+            </div>
+            <button class="btn" style="margin-right: 55px; margin-top: 65px;">أضف إلى السلة</button>
+          </div>
+          
+        
+            <div class="itemBox" data-item="arabic">
+              <img src="assets/img/خط و زخرفه2.png"class="img-menu">
+              <div class="menu-food">
+                <div class="title-price">
+                  <p style="font-size: 2rem;color: var(--black);">قصبة خط عربي</p> <span style="font-size: 1.5rem;color: #8fffff;">1000l.s</span>
+                </div>  
+              </div>
+              <button class="btn" style="margin-right: 55px; margin-top: 65px;">أضف إلى السلة</button>
+            </div>
+            
+            <div class="itemBox" data-item="arabic"> 
+              <img src="assets/img/حبر خط ز زخرفه 3.png"class="img-menu">
+              <div class="menu-food">
+                <div class="title-price">
+                  <p style="font-size: 2rem;color: var(--black);">حبر أزرق</p> <span style="font-size: 1.5rem;color: #8fffff;">6000l.s</span>
+                </div>  
+              </div>
+              <button class="btn" style="margin-right: 55px; margin-top: 65px;">أضف إلى السلة</button>
+            </div>
+</section>
+<!------------------------ menu seaction end  ------------------------>
+<!------------------------ review section starts ------------------------>
+<section class="review" id="review">
+    <h1 class="heading">أراء<span>العملاء </span></h1>
+    <div class="box-container">
+        <div class="box">
+          <h3>جاد</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+            <p>مجموعة لونية كاملة ذات ألوان ناصعة</p>
+            <img src="./assets/img/سل.png" alt="" class="user" style="    width: 100px; height: 100px;">
+           
+    </div>
+
+        <div class="box">
+          <h3>جاسمن</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+            <p>مادة ذو جودة رائعة تجف بسرعة انصح بإقتنائها </p>
+            <img src="./assets/img/نو.png" alt="" class="user" style="    width: 100px;height: 100px;">
+           
+        </div>
+        <div class="box">
+          <h3>رزان</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+            <p>جودة اللون ممتازة ,وسعة العلبة جيدة</p>
+            <img src="./assets/img/محت.png" alt="" class="user" style="    width: 100px; height: 100px;">
+          
+        </div>
+    </div>
+</section>
+<!-------------------------- review section end  -------------------------->
+<!-------------------------- contact section starts  -------------------------->
+<section class="contact" id="contact">
+    <h1 class="heading"><span>اتصال</span></h1>
+    <div class="row">
+    <iframe  class ="map"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.698449509666!2d36.28844808476875!3d33.509221880757195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e0ca5c3480bf%3A0xe732cdda3df47716!2z2YPZhNmK2Kkg2KfZhNmB2YbZiNmGINin2YTYrNmF2YrZhNip2Iwg2K_Zhdi02YLYjCDYs9mI2LHZitin!5e0!3m2!1sar!2s!4v1671560871621!5m2!1sar!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <form action="">
+        <h3>إتصل بنا</h3>
+        <div class="inputBox">
+            <span class="fas fa-user"></span>
+            <input type="text" placeholder="name">
+        </div>
+        <div class="inputBox">
+            <span class="fas fa-envelope"></span>
+            <input type="email" placeholder="email">
+        </div>
+        <div class="inputBox">
+            <span class="fas fa-phone"></span>
+            <input type="number" placeholder="number">
+        </div>
+        <input type="submit" value="تسجيل" class="btn">
+    </form>
+</div>
+</section>
+<!-------------------------- contact section end  -------------------------->
+<!-------------------------- group section start  -------------------------->
+    <section class="group" id="group">
+        <h1 class="heading"> <span>غروب</span></h1>
+        <div class="group-div">
+            <br>
+            <div class="group-container">
+              <div class="all">
+                <div class="name" style="margin-top:40px;">
+                  <img src="assets/img/محمد.png" class="img-group" style=" background: transparent; width: 195px;height: 210px; margin-right:33px;">
+                </div>
+              <div class="grooup ">
+                <div class="group-food">
+                  <div class="title-price">
+                    <a href="#" class="group-food-1" ></a> <span style="font-size: 2rem; ">المصمم محمد نذير مهايني</span>
+                  </div>
+                  <div class="group-maked"> <p style="font-size: 1.5rem; color: #2e3f3f ;">
+                   خريج كلية الفنون الجميلة بدمشق
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="all">
+              <div class="name"><img src="assets/img/اليسار.png"class="img-group" style="width: 250px; height: 250px;"></div>
+              <div class="grooup ">
+                <!-- <img src="assets/img/اليسار.png"class="img-group"> -->
+                <div class="group-food">
+                  <div class="title-price">
+                  <span style="font-size: 2rem;">الفنانة اليسار كسحوت</span>
+                </div>
+                  <div class="group-maked"><p style="font-size: 1.5rem; color: #2e3f3f ;">
+                  أبرز فنانين القائمين على اختبار جودة الألوان
+                </p>
+                  </div>
+                </div>
+                 </div>
+                </div>
+                 
+              <div class="all">
+                <div class="name">
+                <img src="assets/img/لونا.png"class="img-group" style="background: transparent; width: 250px; height: 250px;">
+                </div>
+                <div class="grooup "> 
+                <div class="group-food">
+                  <div class="title-price">
+                  <span style="font-size: 2rem;">المصممة لونا إبراهيم</span>
+                </div>
+                  <div class="group-maked" ><p style="font-size: 1.5rem; color: #2e3f3f ;">
+                    مسؤولة عن الهوية البصرية لشركة دمشق ,خريجة كلية الفنون الجميلة بدمشق 
+                  </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            </div>
+</section>
+<!-------------------------- group section end -------------------------->
+<!-------------------------- foteer seaction start  -------------------------->
+<section class="footer">
+    <div class="sm">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-behance"></i></a>
+    </div>
+    <div class="links">
+        <a href="#">home</a>
+    </div>
+</section>
+<!-------------------------- foteer seaction end  -------------------------->
+
+
+
+
+
+
+
+
+
+
+
+    <!-------------------------- custom js file linke  -------------------------->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
